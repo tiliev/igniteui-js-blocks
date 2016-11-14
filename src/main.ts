@@ -1,6 +1,7 @@
 /**
  * Public API facet
  */
+export * from "./modules";
 export * from './core/navigation';
 
 export * from './navigation-drawer/navigation-drawer';
@@ -21,3 +22,4 @@ export * from './navbar/navbar';
 export * from './directives/filter';
 export * from './directives/ripple';
 export * from './badge/badge';
+export * from './snackbar/snackbar.component';
